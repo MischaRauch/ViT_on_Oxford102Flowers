@@ -1,17 +1,6 @@
 from PIL import Image
 import os.path
 import os
-from os import listdir
-
-from numpy import imag
-
-
-def get_min_resolution():
-    print("min")
-
-
-def get_max_resolution():
-    print("max")
 
 
 def get_images_of_category(category, train_images, test_images, valid_images):
@@ -63,31 +52,3 @@ print(len(test_images) / total_images)
 print(len(valid_images) / total_images)
 
 print(total_images)
-
-# print(os.listdir(folder_dir))
-# print(os.listdir(valid_dir))
-# print(os.listdir(test_dir))
-# print(os.listdir(train_dir))
-
-
-# for images in os.listdir(folder_dir):
-
-#     # check if the image ends with png
-#     if images.endswith(".jpg"):
-#         img = Image.open(folder_dir + "/" + images)
-#         image_sizes.append(img.size)
-
-# min_tuple = min(image_sizes, key=lambda tup: tup[0])
-# max_tuple = max(image_sizes, key=lambda tup: tup[0])
-# print(min_tuple)
-# print(max_tuple)
-
-# min_tuple = min(image_sizes, key=lambda tup: tup[1])
-# max_tuple = max(image_sizes, key=lambda tup: tup[1])
-# print(min_tuple)
-# print(max_tuple)
-
-
-# filename = os.path.join('')
-# img = Image.open(filename)
-# print img.size
