@@ -4,6 +4,8 @@
 This project is a comparison of vision transformers and CNN networks. The vision transformers follows the model described in [An image is worth 16X16 words:
 Transformers for image recognition at scale](https://arxiv.org/pdf/2010.11929.pdf).
 
+The 102 Oxford Flower dataset is a diverse and visually stunning collection of flower images, spanning over a hundred categories. Using the ViT architecture, we aim to develop a robust and accurate model for classifying these images into their respective flower species. The ViT model has shown remarkable results in various computer vision tasks, and we're excited to apply it to this dataset.
+
 ## Usage
 The project has one python-file (check_data.py) and two python-notebooks. 
 
